@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec7da5d8-0473-446c-b800-88b7195317b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cms-web/src/main/resources/static/css/scanexam.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms-web/src/main/resources/static/css/scanExam.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms-web/src/main/resources/static/css/scanexam.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms-web/src/main/resources/static/teacherview/mExam/listExam.html" beforeDir="false" afterPath="$PROJECT_DIR$/cms-web/src/main/resources/static/teacherview/mExam/listExam.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cms-web/src/main/resources/static/teacherview/mExam/scanExam.html" beforeDir="false" afterPath="$PROJECT_DIR$/cms-web/src/main/resources/static/teacherview/mExam/scanExam.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,31 +25,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cms-web/src/main/java/com/CmsWebApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cms-web/src/main/resources/static/teacherview/mExam/submitExam.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cms-web/src/main/resources/static/teacherview/mExam/scanExam.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -90,6 +68,7 @@
         <option value="$PROJECT_DIR$/cms-web/src/main/resources/templates/studentview/stu_main.html" />
         <option value="$PROJECT_DIR$/cms-web/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/cms-web/src/main/resources/static/teacherview/mExam/scanExam.html" />
+        <option value="$PROJECT_DIR$/cms-web/src/main/resources/static/css/scanExam.css" />
       </list>
     </option>
   </component>
@@ -151,6 +130,51 @@
               <item name="cmsystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="cmsystem" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cmsystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cmsystem" type="462c0819:PsiDirectoryNode" />
+              <item name="cms-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cmsystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cmsystem" type="462c0819:PsiDirectoryNode" />
+              <item name="cms-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cmsystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cmsystem" type="462c0819:PsiDirectoryNode" />
+              <item name="cms-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cmsystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cmsystem" type="462c0819:PsiDirectoryNode" />
+              <item name="cms-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cmsystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cmsystem" type="462c0819:PsiDirectoryNode" />
+              <item name="cms-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cmsystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cmsystem" type="462c0819:PsiDirectoryNode" />
+              <item name="cms-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -177,11 +201,11 @@
       <recent name="com" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaWorkSpace\cmsystem\cms-web\src\main\resources\static\css" />
       <recent name="E:\IdeaWorkSpace\cmsystem" />
       <recent name="E:\IdeaWorkSpace\cmsystem\cms-web" />
       <recent name="E:\IdeaWorkSpace\cmsystem\cms-web\src\main\resources\static\teacherview\mExam" />
       <recent name="E:\IdeaWorkSpace\cmsystem\cms-util\src\main\java\com\utils" />
-      <recent name="E:\IdeaWorkSpace\cmsystem\cms-entity\src\main\java\com\entity" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -264,7 +288,7 @@
       <workItem from="1556804213625" duration="454000" />
       <workItem from="1557135861574" duration="843000" />
       <workItem from="1557150679666" duration="30000" />
-      <workItem from="1557737688866" duration="1962000" />
+      <workItem from="1557737688866" duration="2488000" />
     </task>
     <task id="LOCAL-00001" summary="修复学生左边导航条图标bug">
       <created>1556804480987</created>
@@ -273,16 +297,23 @@
       <option name="project" value="LOCAL" />
       <updated>1556804480987</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修复css  bug">
+      <created>1557740070630</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557740070630</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20827000" />
+    <option name="totallyTimeSpent" value="21353000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2806354" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2806354" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -303,7 +334,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.4147541" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.4147541" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -321,7 +352,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="https://github.com/fengwuJ/CMSystem.git&#10;课程管理系统的idea重制版" />
     <MESSAGE value="修复学生左边导航条图标bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复学生左边导航条图标bug" />
+    <MESSAGE value="修复css  bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复css  bug" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cms-web/src/main/java/com/controller/CmsWebApplication.java" />
@@ -585,16 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cms-web/src/main/java/com/CmsWebApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cms-web/src/main/resources/static/teacherview/mExam/submitExam.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/cms-web/src/main/resources/static/css/teachersty.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -606,13 +628,43 @@
         <state relative-caret-position="-414" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cms-web/src/main/resources/static/css/scanexam.css">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/cms-web/src/main/resources/static/css/scanExam.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3427">
+          <caret line="149" selection-start-line="149" selection-end-line="149" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cms-web/src/main/resources/static/teacherview/mExam/scanExam.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="69">
+          <caret line="6" column="68" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms-web/src/main/resources/static/teacherview/mExam/submitExam.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms-web/src/main/java/com/CmsWebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
         </state>
       </provider>
     </entry>
