@@ -33,8 +33,7 @@ public class SearchCourseFileServiceImpl implements SearchCourseFileServiceInf{
 		String status = null;
 		String url = "cfile"+File.separator+cid+File.separator+tid;
 		String path = FileUtils.createDir(url);
-		boolean flag = FileUtils.writeIntoCourseFile(path, file);
-		path = path + File.separator + file.getOriginalFilename();
+		boolean flag = FileUtils.writeIntoFile(path, file);
 		tcfMapper.updateCourseFileStatus(path,tid,cid,"已上传");
 		if (flag == true) {
 			status = "上传成功";
@@ -53,13 +52,20 @@ public class SearchCourseFileServiceImpl implements SearchCourseFileServiceInf{
 	@Override
 	public String checkCFileExsist(String tid, String cid, String fileName) {
 		// TODO Auto-generated method stub
-		String flag = "no";
+		String flag = "OK";
 		String cFUrl = tcfMapper.findCFileUrl(tid,cid);
 		if (cFUrl != null) {
-			String[] temp = cFUrl.split(File.separator);
-			String dbFileName = temp[temp.length-1];
-			if(!fileName.equals(dbFileName)){
-				flag = "OK";
+			File dirFile = new File(cFUrl);
+			File[] fs = dirFile.listFiles();
+			if(fs != null){
+				for (File f : fs) {
+					//若是文件，则将其进行对比
+					if (!f.isDirectory()) {
+						if (f.getName().equals(fileName)) {
+							flag = "no";
+						}
+					}
+				}
 			}
 		}else {
 			flag = "OK";

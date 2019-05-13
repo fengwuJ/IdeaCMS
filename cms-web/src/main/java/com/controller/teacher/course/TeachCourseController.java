@@ -1,11 +1,15 @@
 package com.controller.teacher.course;
 
+import java.io.File;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletResponse;
 
+import com.entity.course.CourseWareName;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -48,11 +52,35 @@ public class TeachCourseController {
 		String result = scfsInf.checkCFileExsist(tid,cid,fileName);
 		return result;
 	}
-	
+
+	@RequestMapping("/getCourseWareList")
+	@ResponseBody
+	public Map<String,Object> getCourseWareList(String tid,String cid,int offset,int pageSize){
+		Map<String,Object> map = new HashMap<>();
+		List<CourseWareName> list = new ArrayList<>();
+		String url = tcfMapper.findCFileUrl(tid, cid);
+		File file = new File(url);
+		File[] fs = file.listFiles();
+		map.put("total",fs.length);
+		if (offset*pageSize < fs.length){
+			int count = 0;
+			for (int i = offset*pageSize; count < pageSize; count++,i++){
+				if (!fs[i].isDirectory()){
+					CourseWareName cwn = new CourseWareName();
+					cwn.setCourseWareName(fs[i].getName());
+					list.add(cwn);
+				}
+			}
+			map.put("rows", list);
+		}
+		return map;
+	}
+
 	@RequestMapping("/downloadCourseFile")
 	@ResponseBody
-	public void downloadCourseFile(String tid,String cid,HttpServletResponse response){
+	public void downloadCourseFile(String courseWareName,String tid,String cid,HttpServletResponse response){
 		String url = tcfMapper.findCFileUrl(tid, cid);
+		url += File.separator+courseWareName;
 		FileUtils.downloadFile(url,response);
 	}
 	

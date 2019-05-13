@@ -77,32 +77,6 @@ public class FileUtils {
 		}
 		return true;
 	}
-
-	public static boolean writeIntoCourseFile(String path,MultipartFile file){
-		File dirFile = new File(path);
-		//判断是否有文件
-		File[] fs = dirFile.listFiles();
-		if(fs != null){
-			for (File f : fs) {
-				//若是文件，则将其删除
-				if (!f.isDirectory()) {
-					f.delete();
-				}
-			}
-		}
-		//获取文件名,包括后缀
-		String fileName = file.getOriginalFilename();
-		//拼接文件绝对路径
-		File tagetFile = new File(path+File.separator+fileName);
-		try {
-			//写入文件
-			file.transferTo(tagetFile);
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		return true;
-	}
 	
 	/**
 	 * 

@@ -62,15 +62,8 @@
 		});
 			
 		$('input[id=lefile]').change(function() {  
-			$('#photoCover').val($(this).val());  
-			//检测是否为pdf文件 
+			$('#photoCover').val($(this).val());
 			var fileName = $('#photoCover').val();
-			var temp = fileName.split('.');
-			var culs = temp[temp.length-1];
-			if(culs != 'pdf'){
-				alert("只能上传pdf文件");
-				return false;
-			}
 			//检测文件名是否存在
 			var fNameTemp = fileName.split('\\');
 			var fname = fNameTemp[fNameTemp.length-1];
