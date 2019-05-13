@@ -24,7 +24,7 @@ import com.utils.FileUtils;
 
 @Service("sswrsImpl")
 public class SearchStuWorkRecordServiceImpl implements SearchStuWorkRecordServiceInf{
-	@Resource(name="stuWorkMapper")
+	@Resource
 	private StuWorkMapper stuWorkMapper;
 
 	@Override

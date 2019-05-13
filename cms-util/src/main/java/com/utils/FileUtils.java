@@ -35,14 +35,20 @@ public class FileUtils {
 	//创建目录,返回目录路径,url为static/*
 	public static String createDir(String url) {
 		String fileUrl = null;
-		File path = null;
+
+		//File path = null;
+		String path = System.getProperty("java.class.path");
+		/*
 		try {
 			path = new File(ResourceUtils.getURL("classpath:").getPath());
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+
 		File upload = new File(path.getAbsolutePath(),"static"+File.separator+url);
+		 */
+		File upload = new File(path+"static"+File.separator+url);
 		if(!upload.exists()){
 			upload.mkdirs();
 		}
